@@ -9,31 +9,32 @@
     "id": 2,
     "name": "Jacket the Chimken",
     "price": 399,
-    "image": "/Images/chimken.jpg"
+    "image": "Images/chimken.jpg"
   },
   {
     "id": 3,
     "name": "Kuromi",
     "price": 450,
-    "image": "/Images/KuromiPink.jpg"
+    "image": "Images/KuromiPink.jpg"
   },
   {
     "id": 4,
     "name": "Laptop Sleeve",
     "price": 899,
-    "image": "/Images/laptopS.jpg"
+    "image": "Images/laptopS.jpg"
   },
   {
     "id": 5,
     "name": "Mushrooms",
     "price": 350,
-    "image": "/Images/mushroom.jpg"
+    "image": "Images/mushroom.jpg"
   },
   {
     "id": 6,
     "name": "Snuppeh!",
     "price": 499,
-    "image": "/Images/Snoopy.jpg"
+    "image": "Images/Snoopy.jpg"
   }
 ]
+
 
