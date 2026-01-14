@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Crochet Hat",
     "price": 799,
-    "image": "Images/Chat.png"
+    "image": "Images/CHat.png"
   },
   {
     "id": 2,
@@ -36,5 +36,6 @@
     "image": "Images/Snoopy.jpg"
   }
 ]
+
 
 
