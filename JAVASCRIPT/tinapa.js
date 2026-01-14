@@ -57,7 +57,7 @@ const addDataToHTML = () => {
         newProduct.dataset.id = product.id;
 
         newProduct.innerHTML = `
-            <img src="/${product.image}">
+            <img src="${product.image}">
             <h2>${product.name}</h2>
             <div class="price">₱${product.price}</div>
             <button class="addCart">Add To Cart</button>
@@ -143,7 +143,7 @@ const addCartToHTML = () => {
 
         newCart.innerHTML = `
             <div class="image">
-                <img src="/${product.image}">
+                <img src="${product.image}">
             </div>
             <div class="name">${product.name}</div>
             <div class="totalPrice">₱${product.price * cart.quantity}</div>
@@ -174,4 +174,5 @@ const initApp = () => {
 };
 
 initApp();
+
 
