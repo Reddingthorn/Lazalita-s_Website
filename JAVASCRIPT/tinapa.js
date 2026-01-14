@@ -163,7 +163,7 @@ const addCartToHTML = () => {
 
 /* INIT APP */
 const initApp = () => {
-    fetch('/JAVASCRIPT/products.json')
+    fetch('products.json')
         .then(res => res.json())
         .then(data => {
             listProducts = data;
@@ -174,3 +174,4 @@ const initApp = () => {
 };
 
 initApp();
+
