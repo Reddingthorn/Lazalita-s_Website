@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+<h1>Checkout</h1>
+
+<div class="checkout-container">
+
+    <!-- Cart Summary -->
+    <div class="order-summary">
+        <h2>Order Summary</h2>
+        <div class="checkoutCart"></div>
+        <h3>Total: ₱<span id="checkoutTotal">0</span></h3>
+    </div>
+
+    <!-- Customer Form -->
+    <div class="checkout-form">
+        <h2>Customer Information</h2>
+
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="text" id="address" placeholder="Address" required>
+        <input type="text" id="phone" placeholder="Phone Number" required>
+
+        <button id="placeOrder">Place Order</button>
+    </div>
+
+</div>
+
+<script src="JAVASCRIPT/checkout.js"></script>
+</body>
+</html>
